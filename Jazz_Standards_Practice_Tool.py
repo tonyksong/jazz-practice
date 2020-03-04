@@ -19,7 +19,7 @@ for i in items:
 
 keys = ['C', 'C#/Db', 'D', 'D#/Eb', 'E', 'F', 'F#/Gb', 'G', 'G#/Ab', 'A', 'A#/Bb', 'B']
 
-tempo = list(range(60, 201, 2))
+tempo = list(range(100, 281, 2))
 
 print('Tune:', random.choice(standards))
 print('Key:', random.choice(keys))
